@@ -1,8 +1,8 @@
 {
-    "name": "internations/decorator-bundle",
+    "name": "micro-module/decorator-bundle",
     "description": "Symfony bundle to handle decorators in the service containers",
     "require-dev": {
-        "phpunit/phpunit": "~6",
+        "phpunit/phpunit": "~6 | ~7 | ~8 | ~9",
         "internations/testing-component": "dev-master"
     },
     "license": "MIT",
@@ -16,11 +16,11 @@
         "psr-4": {"InterNations\\Bundle\\DecoratorBundle\\": "src/"}
     },
     "require": {
-        "symfony/dependency-injection": "~3 | ~4",
-        "symfony/expression-language": "~3 | ~4",
-        "symfony/http-kernel": "~3 | ~4",
-        "symfony/security": "~3 | ~4",
-        "symfony/config": "~3 | ~4",
-        "php": "~7.1"
+        "symfony/dependency-injection": "~3 | ~4 | ~5 | ~6",
+        "symfony/expression-language": "~3 | ~4 | ~5 | ~6",
+        "symfony/http-kernel": "~3 | ~4 | ~5 | ~6",
+        "symfony/security": "~3 | ~4 | ~5 | ~6",
+        "symfony/config": "~3 | ~4 | ~5 | ~6",
+        "php": "~7.4 | ~8.0 | ~8.1"
     }
 }
